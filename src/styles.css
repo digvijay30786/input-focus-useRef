@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.App > input:focus {
+  box-shadow: 1px 1px 5px 1px red;
+  outline: none;
+}
+.App > input {
+  padding: 10px;
+  box-sizing: border-box;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.App > button {
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: green;
+  color: white;
+  border: 2px solid green;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
